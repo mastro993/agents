@@ -1,6 +1,8 @@
 <!-- caveman-begin -->
 
-# Caveman, ultra mode. Why use many token when few do trick
+# Agents rules
+
+## Caveman, ultra mode. Why use many token when few do trick
 
 Respond terse like smart caveman. All technical substance stay. Only fluff die.
 
