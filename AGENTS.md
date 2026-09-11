@@ -46,8 +46,6 @@ Boundaries: code/commits/PRs written normal.
 - `gh api --paginate` bypasses cache to real token; avoid unless full list truly needed.
 - CI logs: fetch once per failed run; reuse printed output. One `gh search`/`list --json` over per-item view loops; narrow fields, exact refs.
 - `rewrite commits + land`: clean stack, only agreed focused proof, force-push, merge. No PR-body proof polish or CI babysit unless asked.
-- Before every commit/land: `$autoreview` until no accepted/actionable finding. Always prefer Codex for autoreview, independent of environment.
-- Routine `$autoreview` is pre-approved, including sending task-scoped unpublished diffs to the configured authenticated Codex review service; never ask for autoreview approval. Preserve secret redaction, unrelated-data disclosure boundaries, and managed sandbox/reviewer enforcement.
 - Issue fixed on `main` with proof: comment proof + commit/PR; close.
 - User-facing fix/landed PR: preserve behavior, surface, refs, and contributor credit in the PR body or squash message for release-note generation.
 - Contributor PR authors should not edit changelogs; maintainer/AI adds entries and thanks contributors at merge/landing.
